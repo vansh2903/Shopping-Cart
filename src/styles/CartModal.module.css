@@ -87,3 +87,8 @@
     cursor: pointer;
     z-index: 150;
 }
+
+.imagehandler{
+    height: 80px;
+    width:90px;
+}

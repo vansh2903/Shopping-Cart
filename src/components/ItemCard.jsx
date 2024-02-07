@@ -4,7 +4,7 @@ import { useValue } from "../itemContext";
 // import { useContext } from "react";
 // import { itemContext } from "../itemContext";
 
-function ItemCard({ price ,name, id}) {
+function ItemCard({ price ,name,id,img}) {
   // const value = useContext(itemContext);
 
   //destructure settotal from value instaed of writing value.setTotal
@@ -28,10 +28,13 @@ function ItemCard({ price ,name, id}) {
 
   return (
     <div className={styles.itemCard}>
+      
+      <img src={img} className={styles.img} alt="image" />
       <div className={styles.itemName}>{name}</div>
       <div className={styles.itemPrice}>&#x20B9; {price}</div>
+      
       <div className={styles.itemButtonsWrapper}>
-        <button className={styles.itemButton} onClick={() => handleAdd({price,name,id})}>
+        <button className={styles.itemButton} onClick={() => handleAdd({price,name,id,img})}>
           Add
         </button>
         <button className={styles.itemButton} onClick={() => handleRemove(id)}>

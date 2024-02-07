@@ -17,6 +17,7 @@ function CartModal() {
           return(
             <div className={styles.cartCard} key={item.id}>
               <h1>{item.name}</h1>
+              <h3><img src={item.img} className={styles.imagehandler}/></h3>
               <h3>X {item.qty}</h3>
               <h3>X {item.qty * item.price}</h3>
               </div>

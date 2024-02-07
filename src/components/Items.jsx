@@ -10,7 +10,8 @@ function Items() {
       <ItemCard key={d.id}
                 id={d.id}
                 name={d.name}
-                 price={d.price} />
+                 price={d.price}
+                 img={d.img} />
         );
     })}
     </div>

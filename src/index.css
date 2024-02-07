@@ -1,9 +1,9 @@
 
 :root {
-  --accent-color: #EB6440;
-  --primary-color: #EFF5F5;
-  --secondary-color: #497174;
-  --tertiary-color: #D6E4E5;
+  --accent-color: #7b54ce;
+  --primary-color: #ffffff;
+  --secondary-color: #070301;
+  --tertiary-color: #a44be3;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tertiary-color);
+  background-color: black;
 }
 
 code {

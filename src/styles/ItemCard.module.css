@@ -1,12 +1,14 @@
 .itemCard {
     margin: 1rem;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    width: 90%;
     min-width: 16rem;
     padding: 1rem;
     font-family: 'Unbounded', sans-serif;
-    border: 0.4rem solid #000;
+    border: 0.4rem solid #100101;
     box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 1);
+    background: radial-gradient(circle, #a58157, #c01edd);
 }
 
 .itemName {
@@ -14,8 +16,23 @@
     font-weight: 800;
     color: var(--secondary-color);
     margin-bottom: 1rem;
+   
 }
 
+
+.img {
+    float: right; /* Use float for alignment */
+    /* height: 100px;
+    width: 30%;
+  } 
+  .img {
+    text-align: center;
+    /* Center the inline or inline-block element */
+    height: 150px;
+    width: 200px;
+    margin-right:55rem;
+  }
+  
 .itemPrice {
     font-size: 1.9rem;
     font-weight: 600;
@@ -28,6 +45,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    color: rgb(84, 189, 189);
 }
 
 .itemButton {
